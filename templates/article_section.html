@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../pic/favicon.png">
+    <link rel="stylesheet" href="../decoration/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../decoration/css/main.css">
+    <link rel="stylesheet" href="../decoration/css/article_section.css">
+</head>
+<body>
+
+  <div class="container_box">
+    <header>
+     <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+       <div class="container">
+            <a class="navbar-brand" href="../templates/index.html">
+                 <img src="../pic/favicon.png" alt="logo" width="60" height="60" alt="">
+                 <img src="../pic/logo_title.png" width="150" height="60"  alt="">
+             </a>
+                
+           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+              
+          <div class="offcanvas offcanvas-start" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-content nav-item">
+                    <a class="nav-link active" aria-current="page" href="../templates/index.html">首頁</a>
+                </li>
+                <li class="nav-content nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    星座運勢
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">水瓶座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">雙魚座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">牡羊座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">金牛座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">雙子座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">巨蟹座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">獅子座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">處女座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">天秤座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">天蠍座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">射手座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">摩羯座</a></li>
+                  </ul>
+                </li> 
+                 <li class="nav-content nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    運勢好文
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../templates/article_section.html">精選</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list.html">星座</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list.html">生肖</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list.html">語錄</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list.html">週報</a></li>
+                  </ul>
+                </li> 
+                <li class="nav-content nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    戀愛占卜
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../templates/love_divination.html">全部</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list_psy.html">單身</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list_psy.html">交往</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list_psy.html">曖昧</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list_psy.html">挽回</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../templates/search_list_psy.html">吵架</a></li>
+                  </ul>
+                </li>     
+                <li class="nav-content nav-item">
+                  <a class="nav-link" href="../templates/search_list_psy.html">心理測驗</a>
+                </li>
+                <li class="nav-content nav-item">
+                  <a class="nav-link" href="../templates/lucky_straws.html">幸運籤筒</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+<div class="container-lg px-lg-2 px-0">
+  <div class="row">
+    <div class="col-12 ">
+      <div class="sub-nav ">
+        <div class="row justify-content-between">
+          <div class="col-2"><h2><a href="">精選</a></h2></div>
+          <div class="col-2"><h2><a href="">星座</a></h2></div>
+          <div class="col-2"><h2><a href="">生肖</a></h2></div>
+          <div class="col-2"><h2><a href="">語錄</a></h2></div>
+          <div class="col-2"><h2><a href="">週報</a></h2></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-lg px-lg-2 px-0">
+  <div>
+    <div class="row text-center">
+      <div class="col">
+        <img src="../pic/article_logo.png" alt="" style="width:100% ;">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container px-3 px-md-2 mt-3 mb-3">
+    <div class="row text-center">
+      <div class="col">
+        <a href=""><img src="https://via.placeholder.com/2000x200?text=AD" alt="" style="width:100%;"></a>
+    </div>
+    </div>
+</div>
+
+<div class="container px-3 px-md-2 mt-4 mb-3 my-5">
+  <div>
+    <form>
+      <div class="row">
+        <div class="col-9 mt-3 mb-3">
+          <input type="password" class="form-control" id="query_search" placeholder="搜尋文章關鍵字">
+        </div>
+        <div class="col-3 mt-3 mb-3 text-center d-grid gap-2">
+          <button type="submit" class="btn btn-secondary" id="query-button">搜尋</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="container px-3 px-md-2 pt-2">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 pb-3">
+        <h2 class="selection_title">編輯精選</h2>
+        <hr class="selection_hr">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <a href="https://youtube.com">
+                <div class="carousel-item active">
+                  <img src="/pic/article/article_test.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <p class="d-none d-lg-block">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </a>
+              <div class="carousel-item">
+                <img src="/pic/chinese_zodiac_title.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h5>Second slide label</h5>
+                  <p class="d-none d-lg-block">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../pic/cosmos_sm.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                  <h5>Third slide label</h5>
+                  <p class="d-none d-lg-block">Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- <div class="special_selection">
+          <h2 class="selection_title">編輯精選</h2>
+          <hr class="selection_hr">
+          <div class="special_article_img">
+            <img src="/pic/article/article_test.jpg" alt="" style="width:100%; opacity:0.2;">
+            <div class="special-bottom-right">Bottom Right</div>
+            <div class="special-centered">A href link</div>
+          </div>
+        </div> -->
+      </div>
+      <div class="col-lg-4 col-md-12 pb-3 ">
+        <div class="special_selection">
+          <h2 class="selection_title">發燒排行</h2>
+          <hr class="selection_hr">
+            <ul class="selection-zone">
+               <li><a href="" class="href-link"><p>Title Name</p></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p></a></li>
+            </ul>
+          </div>
+          <a href=""><img src="https://via.placeholder.com/1000x800?text=AD" alt="" style="width:100%;"></a>
+        </div>
+      </div>
+    </div>
+
+<!-- 分類選單 -->
+<div class="container px-3 px-md-2 pt-2">
+  <div class="pt-2">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 pb-3 order-lg-3 order-2">
+        <div class="selection_lists_upper">
+          <a href=""><h2 class="selection_title">星座</h2></a>
+           <hr class="selection_hr">
+            <ul class="selection-zone">
+              <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+              <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+              <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+              <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+              <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+             </ul>
+             <p class="text-end"><a href="" class="more-button">看更多</a></p>
+          </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 pb-3 order-lg-3 order-2">
+        <div class="selection_lists_upper">
+          <a href=""><h2 class="selection_title">生肖</h2></a>
+           <hr class="selection_hr">
+            <ul class="selection-zone">
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+             </ul>
+             <p class="text-end"><a href="" class="more-button">看更多</a></p>
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container px-3 px-md-2 pt-3 pb-3">
+  <div>
+    <div class="row text-center">
+      <div class="col">
+        <a href=""><img src="https://via.placeholder.com/1000x100?text=AD" alt="" style="width:100% ;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container px-3 px-md-2 pt-2">
+  <div class="pt-2">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 pb-3 order-lg-1 order-1">
+        <div class="selection_lists_under">
+          <a href=""><h2 class="selection_title">語錄</h2></a>
+           <hr class="selection_hr">
+            <ul class="selection-zone">
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+             </ul>
+             <p class="text-end"><a href="" class="more-button">看更多</a></p>
+          </div>
+      </div>
+      <div class="col-lg-6 col-md-6 pb-3 order-lg-3 order-2">
+        <div class="selection_lists_under">
+          <a href=""><h2 class="selection_title">運勢週報</h2></a>
+           <hr class="selection_hr">
+            <ul class="selection-zone">
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+               <li><a href="" class="href-link"><p>Title Name</p><br><pre class="d-none d-lg-block">placeholder for the title's intro</pre></a></li>
+             </ul>
+             <p class="text-end"><a href="" class="more-button">看更多</a></p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="container px-3 px-md-2">
+    <hr>
+  </div>
+
+  <div class="footer">
+    <div class="container pt-2 pb-5">
+      <div class="row text-center">
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>關於我們</h5></a>
+        </div>
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>我們的服務</h5></a>
+        </div>
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>隱私權政策</h5></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h5>夏陽運勢網</h5>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+<script src='../decoration/bootstrap/js/bootstrap.bundle.min.js' ></script>
+</html>

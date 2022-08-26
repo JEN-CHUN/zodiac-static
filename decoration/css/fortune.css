@@ -1,0 +1,147 @@
+.card{
+    min-height: 350px;
+    box-shadow: 1px 1px 3px 3px #b3b2b1;
+}
+
+.card-header{
+    font-size: 35px;
+    font-weight:500;
+}
+
+
+.card .nav-link{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card .tab-pane{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.zodiac-intro-name{
+    font-size: 35px !important;
+}
+
+/* 星座介紹欄位 */
+
+.zodiac-card .card-header{
+    background-color: #a3eeec;
+}
+
+.zodiac-card .card-body{
+    background-color: #c5eeed;
+}
+
+.zodiac-card{
+    color: #088d8d
+}
+
+.zodiac-card .card-body p{
+    font-size: 20px;
+}
+
+/* 欄位Nav Item的Margin */
+.card-body .nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* 整體運欄位 */
+.total-card .card-header{
+    background-color:#b6e8ab;
+    color: #26a70f;
+}
+
+.total-card .card-body{
+    background-color: #d4f1ce;
+}
+
+.total-card .nav-link, .total-card .nav-link.active{
+    color: #26a70f;
+}
+
+
+.total-card .nav-link.active{
+    background-color: #8ee879;
+    border:2px solid #72d155;
+}
+
+/* 事業運欄位 */
+.business-card .card-header{
+    /* background-color:#a9fff5;
+    color: #08a795; */
+    background-color:#fcb1a3;
+    color: #b82930;
+}
+
+.business-card .card-body{
+    /* background-color: #cdfff9; */
+    background-color: #fcc7c0;
+}
+
+.business-card .nav-link, .business-card .nav-link.active{
+    /* color: #08a795; */
+    color: #b82930;
+}
+
+
+.business-card .nav-link.active{
+    /* background-color: #8cfff2;
+    border:2px solid #09d6be; */
+    background-color: #fcb5ae;
+    border:2px solid #fca393;
+}
+
+/* 愛情運欄位 */
+.love-card .card-header{
+    background-color:#ffaed2;
+    color: #c82973;
+    /* background-color:#ffaed2;
+    color: #c82973; */
+}
+
+.love-card .card-body{
+    background-color: #ffd4e7;
+    /* background-color: #ffd4e7; */
+}
+
+.love-card .nav-link, .love-card .nav-link.active{
+    color: #c82973;
+    /* color: #c82973; */
+}
+
+
+.love-card .nav-link.active{
+    background-color: #ffaed2;
+    border:2px solid #ff9fca;
+    /* background-color: #ffaed2;
+    border:2px solid #ff9fca; */
+}
+
+/* 金錢運欄位 */
+.money-card .card-header{
+    background-color:#fffa63;
+    color: #aba300;
+    /* background-color:#ffc87e;
+    color: #8b5000; */
+}
+
+.money-card .card-body{
+    background-color: #fffc93;
+    /* background-color: #ffdeb3; */
+}
+
+.money-card .nav-link, .money-card .nav-link.active{
+    color: #aba300;
+    /* color: #8b5000; */
+}
+
+
+.money-card .nav-link.active{
+    background-color: #fffb74;
+    border:2px solid #ded937;
+    /* background-color: #ffc87e;
+    border:2px solid #ffb757; */
+}

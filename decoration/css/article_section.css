@@ -1,0 +1,209 @@
+a:hover{
+  text-decoration: none;
+}
+
+.article-nav{
+  box-shadow: none;
+}
+
+.sub-nav{
+  font-size: 35px;
+  background-color: #ffedf3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  top: 100px;
+  text-decoration: none;
+}
+
+.sub-nav h2{
+  text-align: center;
+  font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sub-nav a{
+  color:#e38585;
+}
+
+.more-button{
+  font-size: 20px;
+  font-weight: 700;
+  color:#e38585;
+}
+
+pre{
+  font-size: 20px;
+  padding-left: 36px;
+  margin: 0;
+}
+
+.selection-zone{
+    list-style:none;
+    padding-left: 0;
+}
+
+.carousel-item>img {
+  height: 600px;
+  opacity: 0.3;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.carousel-caption a{
+  text-decoration: none;
+  color: black;
+}
+
+.carousel-caption>h5{
+  font-size: 30px;
+}
+
+.carousel-caption>p{
+  font-size: 20.5px;
+}
+
+.selection-zone li{
+    border: #ffe7e7 2px solid;
+    border-radius: 10px;
+    background-color: #ffe7e7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+    justify-content: center;
+}
+
+
+.selection-zone li p{
+    font-size: 25px;
+    padding-left: 36px;
+    padding-right: 12px;
+    margin: 0;
+    display: inline;
+}
+
+
+.selection_title{
+    color: #e38585;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.selection_hr{
+    width: 35%;
+    height: 5px;
+    color: #e38d8d;
+    background-color: #e38d8d;
+    margin-top: 0;
+}
+
+.special_article_img{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.href-link{
+  color: black;
+}
+
+.herf-link:hover{
+  color: black;
+}
+
+.selection_lists_upper .selection_title{
+  color: #e3bc30;
+}
+
+.selection_lists_upper li{
+  border: #fff1c4 2px solid;
+  background-color: #fff1c4;
+}
+
+.selection_lists_upper .selection_hr{
+  color: #fff1c4;
+  background-color: #fff1c4;
+  opacity: 1 ;
+}
+
+.selection_lists_upper .more-button{
+  color: #e3bc30;
+}
+
+.selection_lists_under .selection_title{
+  color: #d387ff;
+}
+
+.selection_lists_under li{
+  border: #f7e7ff 2px solid;
+  background-color: #f7e7ff;
+}
+
+.selection_lists_under .selection_hr{
+  color: #f7e7ff;
+  background-color: #f7e7ff;
+  opacity: 1 ;
+}
+
+.selection_lists_under .more-button{
+  color: #d387ff;
+}
+
+  /* Special Centered A Herf */
+.special-centered {
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Bottom right text */
+.special-bottom-right {
+    font-size: 25px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media (max-width: 756px) {
+    .special-centered {
+        font-size: 23px;
+      }
+    .special-bottom-right {
+        font-size: 18px;
+      }
+  }
+
+  .carousel-item>img {
+    height: 600px;
+    opacity: 0.3;
+  }
+
+@media (max-width: 1399px) {
+    .carousel-caption>h5{
+      font-size: 28px;
+    }
+    .carousel-caption>p{
+      font-size: 18px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .carousel-item>img {
+      height: 350px;
+      opacity: 0.3;
+    }
+    .carousel-caption>h5{
+      font-size: 20px;
+    }
+  }
+

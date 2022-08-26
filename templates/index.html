@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夏陽運勢網</title>
+    <link rel="icon" href="../pic/favicon.png">
+    <link rel="stylesheet" href="../decoration/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../decoration/css/main.css">
+</head>
+<body>
+
+<div class="container_box">
+  <header>
+   <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+     <div class="container">
+          <a class="navbar-brand" href="../templates/index.html">
+               <img src="../pic/favicon.png" alt="logo" width="60" height="60" alt="">
+               <img src="../pic/logo_title.png" width="150" height="60"  alt="">
+           </a>
+              
+         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+         </button>
+            
+        <div class="offcanvas offcanvas-start" data-bs-hideresize="true" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-content nav-item">
+                  <a class="nav-link active" aria-current="page" href="../templates/index.html">首頁</a>
+              </li>
+              <li class="nav-content nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  星座運勢
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">水瓶座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">雙魚座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">牡羊座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">金牛座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">雙子座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">巨蟹座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">獅子座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">處女座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">天秤座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">天蠍座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">射手座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/zodiac_fortune.html">摩羯座</a></li>
+                </ul>
+              </li> 
+               <li class="nav-content nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  運勢好文
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../templates/article_section.html">精選</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">星座</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">生肖</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">語錄</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">週報</a></li>
+                </ul>
+              </li> 
+              <li class="nav-content nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  戀愛占卜
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../templates/love_divination.html">全部</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">單身</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">交往</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">曖昧</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">挽回</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../templates/search_list.html">吵架</a></li>
+                </ul>
+              </li>     
+              <li class="nav-content nav-item">
+                <a class="nav-link" href="../templates/search_list_psy.html">心理測驗</a>
+              </li>
+              <li class="nav-content nav-item">
+                <a class="nav-link" href="../templates/lucky_straws.html">幸運籤筒</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<div class="container-lg px-lg-2 px-0">
+    <div class="row text-center">
+      <div class="col">
+        <img src="../pic/index_title.png" alt="" style="width:100% ;">
+      </div>
+    </div>
+</div>
+
+<!-- Zodiac Fortune for Mobile Screen -->
+
+<div class="container px-3 px-md-2">
+    <div class="col-xl-8 col-lg-12 col-12  pt-4 pb-3 d-block d-lg-none" >
+      <div class="group-group zodiac-sign-group" >
+        <h1 class="group-title text-center" >星座運勢</h1>
+        <div class="group-content text-black" >
+          
+          <p class="text-of-intro">想知道本日、本周還有本月的運勢如何嗎?</p>
+          <p class="text-of-intro">點擊下方按鈕立刻查詢!</p>
+          
+          <div class="text-center">
+            <br>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+              選擇星座
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header text-center ">
+                    <h5 class="modal-title w-100" id="staticBackdropLabel">星座運勢</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row" >
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+          
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-4 mb-3">
+                        <a href="../templates/zodiac_fortune.html">
+                          <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                          <p>name</p>
+                          <p>test_date</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- End of Zodiac Fortune for Mobile -->
+
+
+
+<!-- Zodiac Fortune for PC Screen-->
+<div class="container px-3 px-md-2">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-12  mt-4 mb-3 d-none d-lg-block ">
+        <div class="group-group zodiac-sign-group">
+          <h1 class="group-title text-center">選擇您的星座來查看您的運勢!</h1>
+          <div class="group-content text-black ">
+              <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 col-4 pb-3 pc-zodiac">
+                  <a href="../templates/zodiac_fortune.html">
+                    <img class="zodiac-imgs" src="../pic/zodiac_pic/zodiac_ready/牡羊座.png" alt="test">
+                    <p>name</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-xl-12 col-lg-12 col-12 ">
+          <div class="row">
+              <div class="col-12 pt-2 pb-2">
+                <a href=""><img src="https://via.placeholder.com/800x200?text=AD" alt="" style="width:100% ;"></a>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- End of Zodiac Fortune for Pc Screen -->
+
+<div class="title_img_group">
+  <div class="container px-3 px-md-2">
+    <div>
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-12 pt-2 pb-3">
+          <a href="../templates/love_divination.html"><img src="../pic/love_title.png" alt="" class="img-title" style="width:100% ;"></a>
+        </div>
+        <div class="col-lg-6 col-md-12 pt-2 pb-3">
+          <a href="../templates/article_section.html"><img src="../pic/articles.png" alt="" class="img-title" style="width:100% ;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-3 px-md-2">
+    <div>
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-12 pt-2 pb-3">
+          <a href="../templates/search_list_psy.html"><img src="../pic/psy.png" alt="" class="img-title" style="width:100% ;"></a>
+        </div>
+        <div class="col-lg-6 col-md-12 pt-2 pb-3">
+          <a href="../templates/search_list_psy.html"><img src="../pic/lucky.png" alt="" class="img-title" style="width:100% ;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container px-3 px-md-2">
+  <div>
+    <div class="row text-center">
+      <div class="col">
+        <a href=""><img src="https://via.placeholder.com/2000x600?text=AD" alt="" style="width:100% ;"></a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="container px-3 px-md-2">
+    <hr>
+  </div>
+
+  <div class="footer">
+    <div class="container pt-2 pb-5">
+      <div class="row text-center">
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>關於我們</h5></a>
+        </div>
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>我們的服務</h5></a>
+        </div>
+        <div class="col-sm-4 col-12">
+          <a href=""><h5>隱私權政策</h5></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h5>夏陽運勢網</h5>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+<script src='../decoration/bootstrap/js/bootstrap.bundle.min.js' ></script>
+</html>

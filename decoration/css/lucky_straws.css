@@ -1,0 +1,114 @@
+html, body{
+  scroll-behavior: smooth;
+}
+
+legend{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+legend p{
+  font-size: 35px;
+}
+
+small{
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  margin-top: 5px; 
+}
+
+.data-label{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.button-group{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 23px;
+
+  color: white;
+  font-weight: 500;
+}
+
+.modal-body li:not(:first-child){
+  margin-top: 10px;
+}
+
+.form{
+  background-color: #ffcdd7;
+}
+
+.result-list-class{
+  background-color: #ffdec8;
+}
+
+.result-detail{
+  font-size: 18px;
+}
+
+#start-button{
+  background-color: #6e78ff;
+  border: #6e78ff;
+}
+
+#start-button:hover{
+  background-color: #3744ff;
+}
+
+#cancel-button{
+  background-color: #ff6e70;
+  border: #ff6e70;
+}
+
+#cancel-button:hover{
+  background-color: #ff3d40;
+}
+
+#intro-button{
+  background-color: #ffa946;
+  border: #ffa946;
+}
+
+#intro-button:hover{
+  background-color: #ff8800;
+}
+
+#result-list{
+  display: none;
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
+}
+
+
+
+@media (max-width:644px) {
+  .button-group{
+    font-size: 20px;
+  }
+}
+
+@media (min-width:576px) {
+  .result-detail{
+    font-size: 23px;
+  }
+}
+
+@media (max-width:575px) {
+  .button-group{
+    font-size: 23px;
+  }
+}
+
+@media (max-width:314px) {
+  legend{
+    font-size: 35px;
+  }
+  legend p{
+    font-size: 26px;
+  }
+  .data-label{
+    font-size: 23px;
+  }
+}

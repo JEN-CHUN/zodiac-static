@@ -1,0 +1,261 @@
+*{
+    word-wrap: break-word;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    padding-top: 85px;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+  }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+  }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    /* padding: 1rem; */
+    background-color: #ffedf3;
+    opacity: 1;
+    box-shadow: 1px 1px 2px 0.5px #b3b2b1;
+
+}
+
+.offcanvas, .dropdown-item{
+    font-size: 20px;
+}
+
+.offcanvas, .dropdown-menu{
+    background-color: #ffedf3;
+    border: none;
+}
+
+.nav-content{
+    padding:5px 5px;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-size: 23px;
+}
+
+.container_box {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapper {
+    min-height:100%;
+    overflow-y: hidden;
+    margin-bottom: -50px;
+  }
+
+
+.modal-header{
+    background-color: #d5f7ff;
+    color: #00629c;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.modal-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.modal-body{
+    background-color: #e6faff;
+}
+
+.modal-body a:hover{
+    text-decoration: none;
+}
+
+.modal-body p{
+    margin-bottom: 0px;
+}
+
+.modal-footer{
+    background-color: #d5f7ff;
+    color: #00629c;
+    box-shadow: 0 1px 2px -2px gray inset ;
+}
+
+.pc-zodiac p{
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+}
+
+.zodiac-imgs{
+    border-radius: 999px;
+    width: 100%;
+}
+
+.group-content{
+    padding:30px 25px 0px 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.group-content a:hover{
+    text-decoration: none;
+}
+
+.img-title{
+    border-radius: 10px;
+    border: 1px solid #9c9b9a;
+    box-shadow: 2px 2px 3px 3px #b3b2b1;
+}
+
+.group-title{
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0 ;
+    box-shadow: 0 4px 2px -2px gray;
+
+}
+
+.group-content p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.group-group{
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px #b3b2b1;
+}
+
+.title_img_group img{
+    max-height: 350px;
+}
+
+.zodiac-sign-group .group-title{
+    background-color: #c6f5ff;
+    color: #00629c;
+    font-weight: bold;
+    position: relative;
+}
+
+.zodiac-sign-group .group-content{
+    background-color: #e6faff;
+}
+
+.zodiac-sign-group .group-content p{
+    font-size: 26px;
+    text-align: center;
+    color: #00629c;
+    font-weight: bold;
+}
+
+.psy-test-group .group-title{
+    background-color: #fdc1ff;
+    color: #ff53ff;
+    font-weight: bold;
+    position: relative;
+}
+
+.psy-test-group .group-content{
+    background-color: #fae6ff;
+}
+
+.lucky-draw-group .group-title{
+    background-color: #ffd4d1;
+    color: #ff6863;
+    font-weight: bold;
+    position: relative;
+}
+
+.lucky-draw-group .group-content{
+    background-color: #ffedeb;
+}
+
+
+.list-group-item{
+    background-color: transparent;
+}
+
+.list-group-item a{
+    color: black;
+    font-size: 23px;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color:gray ;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
+#query-button{
+    background-color: #ffd3cb;
+    border-color: #ffd3cb;
+    color: #bf2424;
+}
+
+@media (max-width:1399px) {
+    .nav-content{
+        padding:5px 5px;
+        margin-left: 30px;
+        margin-right: 0px;
+        font-size: 21px;
+    }
+}
+
+@media (max-width:767px) {
+    .zodiac-sign-group .group-content p{
+        font-size: 20px;
+        text-align: center;
+        color: #00629c;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 371px) {
+    .footer a h5{
+      font-size: 18px;
+    }
+  }
+
+@media (max-width: 335px) {
+    #query-button{
+      font-size: 14px;
+    }
+  }
+
+@media(max-width:310px){
+    body {
+        padding-top: 120px;
+      }
+}
+

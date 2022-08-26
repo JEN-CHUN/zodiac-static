@@ -1,0 +1,199 @@
+ul{
+    padding-left: 0;
+    font-size: 20px;
+  }
+
+.card{
+    min-height: 350px;
+    box-shadow: 1px 1px 3px 3px #b3b2b1;
+}
+
+.card-header{
+    font-size: 35px;
+    font-weight:500;
+    background-color: #ffdac0;
+}
+
+.card-header .nav-item .active{
+    background-color: #ffede0;
+}
+
+.card-header .nav {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+.card-header ul.nav li {
+    display: inline-block;
+    float: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.card .nav-link{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card .article-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-header .nav-link{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.card-body{
+    background-color:#ffede0;
+}
+
+.good-article-selection .group-title{
+    background-color: #c1caff;
+    color: #6d73c8;
+    font-weight: bold;
+    position: relative;
+}
+
+.good-article-selection .group-content{
+    background-color: #d3d8ff;
+}
+
+.selection_title{
+    color: #e38585;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.selection_hr{
+    width: 35%;
+    height: 5px;
+    color: #e38d8d;
+    background-color: #e38d8d;
+    margin-top: 0;
+}
+
+.selection-zone{
+    list-style:none;
+    padding-left: 0;
+}
+
+.selection-zone li{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ffe7e7;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.selection-zone img{
+  border-radius: 10px;
+}
+
+.selection-zone li p{
+    font-size: 25px;
+}
+
+.selection-zone li pre{
+  padding-left: 0;
+}
+
+.special-selection li{
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.special-selection li p{
+  display: inline;
+  padding-left: 36px;
+  padding-right: 12px;
+}
+
+.href-link{
+    color: black;
+  }
+
+.instruction{
+    font-size: 25px;
+}
+
+.group-title{
+    font-weight: bold;
+}
+
+.page-link, .disabled .page-link{
+    background-color: #ffdac0;
+    color: black;
+}
+
+.pagination > .active > a
+{
+    color: black;
+    background-color: #ffc08c !Important;
+}
+
+.pagination > li > a:hover
+{
+    background-color: #ffc08c !Important;
+    border: none;
+}
+
+.divination_answer .accordion-button{
+    background-color: #ffeaea;
+}
+
+.divination_answer .accordion-body{
+    background-color: #fff6f6;
+}
+
+
+
+.divination_answer .accordion-button:focus{
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+#number_of_answers{
+    visibility: hidden;
+}
+
+@media (min-width: 992px) {
+    .card-header .nav-link{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+  }
+
+@media (max-width: 756px) {
+    .card-header .nav-link{
+        font-size: 22px;
+    }   
+  }
+
+@media (max-width: 500px) {
+    .instruction{
+        font-size: 18px;
+    }   
+  }
+
+@media (max-width: 404px) {
+    .card-header .nav-link{
+        font-size: 20px;
+    }
+    .card .article-title{
+        font-size: 18px;
+        font-weight: 500;
+    }
+  }
+
+@media (max-width: 369px) {
+    .card-header .nav-link{
+        font-size: 20px;
+    }
+    .card .article-title{
+        font-size: 17px;
+        font-weight: 500;
+    }
+  }
+
